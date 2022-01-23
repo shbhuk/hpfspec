@@ -57,6 +57,6 @@ def bjdbrv(jd_utc, ra=None, dec=None, obsname=None, lat=0., lon=0., elevation=No
                    pmdec=pmdec, px=parallax, lat=lat, longi=lon, alt=elevation,leap_update=leap_update,**kwargs)
    
    if len(brv) > 1:
-		return bjd.value, brv
-	 else:
-		return bjd.value, brv[0]
+       return bjd.value, brv
+   else:
+       return bjd.value, brv[0]
